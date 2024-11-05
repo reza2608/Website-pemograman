@@ -1,0 +1,92 @@
+/* Reset and Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #e8f6f3; /* Mengubah warna latar belakang */
+}
+
+nav.nav {
+    background-color: #b0d7d4; /* Mengubah warna latar belakang navbar */
+    padding: 10px;
+    text-align: center;
+}
+
+nav.nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #1f2a2c; /* Mengubah warna teks navbar */
+}
+
+/* Main Content Section */
+.main {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.content-container {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 20px;
+    max-width: 1200px;
+    width: 100%;
+}
+
+/* Side Navigation (Articles) */
+.side-nav {
+    background-color: #b0d7d4; /* Mengubah warna latar belakang side navigation */
+    padding: 20px;
+}
+
+.article {
+    margin-bottom: 20px;
+}
+
+.article h2 {
+    font-size: 1.5em;
+    color: #1f2a2c; /* Mengubah warna teks judul artikel */
+    margin-bottom: 10px;
+}
+
+.article p {
+    color: #3a4f4f; /* Mengubah warna teks artikel */
+}
+
+/* Aside Section */
+.aside {
+    background-color: #b0d7d4; /* Mengubah warna latar belakang aside */
+    padding: 20px;
+}
+
+.aside-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.poster-image {
+    width: 100%;
+    height: auto;
+    max-width: 200px;
+    margin-bottom: 10px;
+}
+
+.aside-text p {
+    color: #3a4f4f; /* Mengubah warna teks aside */
+    text-align: center;
+}
+
+/* Footer Section */
+.footer {
+    background-color: #b0d7d4; /* Mengubah warna latar belakang footer */
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #1f2a2c; /* Mengubah warna teks footer */
+}

@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e3f2fd; /* Warna latar belakang yang lembut */
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* Menambah efek bayangan lebih lembut */
+}
+
+h1 {
+    text-align: center;
+    color: #1e88e5; /* Warna biru gelap yang menonjol */
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #90caf9; /* Warna biru muda sebagai garis bawah */
+}
+
+h2 {
+    color: #1565c0; /* Warna biru lebih gelap untuk judul subbagian */
+    font-size: 1.2em;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.form-section {
+    background-color: #f0f7fa; /* Warna latar belakang form-section lebih cerah */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #b0bec5; /* Warna abu terang untuk garis tepi */
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #37474f; /* Warna teks label abu gelap */
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+input[type="file"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #b0bec5; /* Warna tepi abu terang */
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 14px;
+    background-color: #ffffff; /* Latar belakang input tetap putih */
+}
+
+select {
+    background-color: #ffffff;
+}
+
+.radio-group {
+    margin-top: 5px;
+}
+
+.radio-group input[type="radio"] {
+    margin-right: 5px;
+}
+
+.radio-group label {
+    display: inline;
+    margin-right: 15px;
+    font-weight: normal;
+    color: #546e7a; /* Warna teks radio abu */
+}
+
+textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+input[type="submit"],
+button {
+    background-color: #42a5f5; /* Tombol warna biru terang */
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover,
+button:hover {
+    background-color: #1e88e5; /* Warna biru lebih gelap saat hover */
+}
